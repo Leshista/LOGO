@@ -70,7 +70,7 @@
         </div>
         <div class="main-bottom">
             <div class="main-bottom__wrapper">
-                <div id="carouselExampleIndicators" class="carousel slide">
+                <div id="carouselExampleIndicators" class="carousel slide" data-interval="0">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="check-up">
