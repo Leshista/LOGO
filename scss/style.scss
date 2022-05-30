@@ -9,15 +9,17 @@ body {
     line-height: 21px;
 }
 .wrapper {
-    max-width: 113.7rem;
-    margin: 0 auto;
 }
 .header {
     &-top {
-        height: 6.7rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        &__wrapper {
+            max-width: 113.7rem;
+            margin: 0 auto;
+            height: 6.7rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
         &__left {
             display: flex;
             margin-top: 0.5rem;
@@ -64,8 +66,27 @@ body {
         }
     }
     &-bottom {
-        height: 4.3rem;
-        border: 1px solid black;
+        background-color: #1fa181;
+        &__wrapper {
+            max-width: 113.7rem;
+            margin: 0 auto;
+            height: 4.3rem;
+        }
+        .navigation {
+            &__list {
+                padding-left: 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                max-width: 48.2rem;
+                color: #fff;
+                list-style: none;
+            }
+            &__item {
+                font-size: 16px;
+                margin-top: 1rem;
+            }
+        }
     }
 }
 .main {
