@@ -1,0 +1,74 @@
+html {
+    font-size: 10px;
+}
+body {
+    font-family: "PT Sans Caption";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.wrapper {
+    max-width: 113.7rem;
+    margin: 0 auto;
+}
+.header {
+    &-top {
+        height: 6.7rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__left {
+            display: flex;
+            margin-top: 0.5rem;
+            .logo {
+                margin-right: 2.387rem;
+            }
+            .adress {
+                display: flex;
+                &__text {
+                    line-height: 8px;
+                    .street {
+                        color: #868686;
+                    }
+                }
+                .vector {
+                    margin-right: 0.665rem;
+                }
+            }
+        }
+        &__right {
+            display: flex;
+            .whatsapp {
+                display: flex;
+                &__logo {
+                    margin-top: 0.5rem;
+                    margin-right: 1.13rem;
+                }
+                &__number {
+                    margin-top: 1rem;
+                    margin-right: 3.5rem;
+                    font-size: 16px;
+                }
+            }
+            .sign-up {
+                &__button {
+                    width: 19.6rem;
+                    height: 4.3rem;
+                    font-size: 14px;
+                    background-color: #0dbc91;
+                    color: #fff;
+                    border-radius: 50px;
+                }
+            }
+        }
+    }
+    &-bottom {
+        height: 4.3rem;
+        border: 1px solid black;
+    }
+}
+.main {
+}
+.footer {
+}
