@@ -79,6 +79,7 @@ body {
                 justify-content: space-between;
                 max-width: 48.2rem;
                 color: #fff;
+                cursor: pointer;
                 list-style: none;
             }
             &__item {
@@ -213,4 +214,45 @@ body {
     }
 }
 .footer {
+    height: 14.4rem;
+    background: #08664f;
+    &__wrapper {
+        max-width: 113.7rem;
+        margin: 0 auto;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+    }
+
+    &__nav {
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        margin-right: 3rem;
+        cursor: pointer;
+        color: #fff;
+    }
+}
+.socials {
+    display: flex;
+    &__instagram {
+        margin-right: 1.5rem;
+    }
+
+    &__whatsapp {
+        margin-right: 1.5rem;
+    }
+
+    &__telegram {
+        margin-right: 1.5rem;
+    }
 }
