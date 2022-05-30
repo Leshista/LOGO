@@ -69,7 +69,37 @@
             </section>
         </div>
         <div class="main-bottom">
-
+            <div class="main-bottom__wrapper">
+                <div class="check-up">
+                    <div class="check-up-left">
+                        <div class="check-up-left__wrapper">
+                            <p class="check-up__title">CHECK-UP</p>
+                            <p class="check-up__text">для мужчин</p>
+                            <ul class="check-up__list">
+                                <li class="check-up__item">Гормональный скрининг</li>
+                                <li class="check-up__item">Тестостерон</li>
+                                <li class="check-up__item">Свободный тестостерон</li>
+                                <li class="check-up__item">Глобулин, связывающий половые гормоны</li>
+                            </ul>
+                            <div class="price">
+                                <p class="price__now">Всего 2800₽</p>
+                                <p class="price__then">3500₽</p>
+                            </div>
+                            <div class="check-up__buttons">
+                                <button class="check-up__sign-in">Записаться</button>
+                                <button class="check-up__more">Подробнее</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="check-up-right">
+                        <img src="img/checkup.png" alt="Photo of a doctor">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controlling-panel">
+            <a><img src="img/arrow-left.png" alt="arrow-left"></a>
+            <p class="controlling-panel__numbers">1<span>/4</span></p><a><img src="img/arrow-right.png" alt="arrow-right"></a>
         </div>
     </main>
     <footer class="footer">

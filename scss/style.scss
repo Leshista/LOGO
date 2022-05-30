@@ -7,6 +7,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
+    color: #364844;
 }
 .header {
     &-top {
@@ -116,6 +117,99 @@ body {
         }
     }
     .main-bottom {
+        &__wrapper {
+            max-width: 114rem;
+            margin: 10rem auto 3.9rem auto;
+            background-color: #e2f0ef;
+        }
+    }
+    .check-up {
+        display: flex;
+        .check-up-left {
+            width: 50%;
+            &__wrapper {
+                margin: 5.3rem 0 5.6rem 6.3rem;
+            }
+        }
+        &__title {
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 49px;
+            margin-bottom: 0.2rem;
+        }
+
+        &__text {
+            font-size: 22px;
+            line-height: 28px;
+            margin-bottom: 1.6rem;
+        }
+
+        &__list {
+            list-style-image: url(../img/Ellipse.png);
+        }
+
+        &__item {
+            font-size: 16px;
+            line-height: 28px;
+        }
+
+        .price {
+            display: flex;
+            &__now {
+                font-size: 20px;
+                line-height: 26px;
+                margin-right: 1.6rem;
+            }
+
+            &__then {
+                text-decoration-line: line-through;
+                color: #868686;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+
+        &__buttons {
+            display: flex;
+        }
+
+        &__sign-in {
+            height: 4.3rem;
+            width: 19.6rem;
+            background: #0dbc91;
+            border-radius: 50px;
+            border: none;
+            margin-right: 1.4rem;
+            color: #ffffff;
+        }
+
+        &__more {
+            height: 4.3rem;
+            width: 19.6rem;
+            border: 1px solid #0dbc91;
+            border-radius: 50px;
+            color: #0dbc91;
+            background-color: #e2f0ef;
+        }
+        .check-up-right {
+            clip-path: polygon(0% -60%, 100% 0%, 100% 600%);
+        }
+    }
+    .controlling-panel {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 9.8rem;
+        &__numbers {
+            font-size: 18px;
+            line-height: 23px;
+            margin: 0 3.6rem;
+            span {
+                color: #868686;
+            }
+        }
+        a {
+            cursor: pointer;
+        }
     }
 }
 .footer {

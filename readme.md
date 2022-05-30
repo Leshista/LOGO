@@ -1,1 +1,1 @@
-# A Test Project for Rocket Buisness Company
+# A Test Project for Rocket Business Company
