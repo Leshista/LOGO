@@ -1,6 +1,9 @@
 html {
     font-size: 10px;
 }
+img {
+    max-width: 100%;
+}
 body {
     font-family: "PT Sans Caption", sans-serif;
     font-style: normal;
@@ -257,3 +260,5 @@ body {
         margin-right: 1.5rem;
     }
 }
+
+@import "media.scss";

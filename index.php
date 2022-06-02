@@ -65,7 +65,10 @@
                 </div>
             </section>
             <section class="main-top__right">
-                <img src="img/photo1.png" alt="Photo of our clinic">
+                <picture>
+                    <source srcset="img/mobile.png" media="(max-width: 576px)">
+                    <img src="img/photo1.png" alt="A photo of our clinic" />
+                </picture>
             </section>
         </div>
         <div class="main-bottom">
