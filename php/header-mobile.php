@@ -1,8 +1,8 @@
 <header class="header-mobile">
     <div class="burger-menu">
-        <div class="burger-menu__stripe"><img src="img/stripe.png" alt="a burger stripe"></div>
-        <div class="burger-menu__stripe"><img src="img/stripe.png" alt="a burger stripe"></div>
-        <div class="burger-menu__stripe"><img src="img/stripe.png" alt="a burger stripe"></div>
+        <div class="burger-menu__stripe first-stripe"><img src="img/stripe.png" alt="a burger stripe"></div>
+        <div class="burger-menu__stripe second-stripe"><img src="img/stripe.png" alt="a burger stripe"></div>
+        <div class="burger-menu__stripe third-stripe"><img src="img/stripe.png" alt="a burger stripe"></div>
     </div>
     <div class="mobile-logo">
         <img src="img/LOGOmob.png" alt="LOGO">

@@ -16,7 +16,7 @@
     <?php include_once "php/main.php" ?>"
     <?php include_once "php/footer.php" ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" type="module"></script>
 </body>
 
 </html>

@@ -1,0 +1,12 @@
+.burger-menu__stripe {
+    transition-property: all;
+    transition-duration: 200ms;
+}
+
+.first-stripe_active {
+    transform: rotateX(20deg);
+}
+.second-stripe_active {
+}
+.third-stripe_active {
+}
