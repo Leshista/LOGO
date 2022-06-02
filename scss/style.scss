@@ -92,9 +92,43 @@ body {
         }
     }
 }
+
 .header-mobile {
     display: none;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.8rem;
+    .burger-menu {
+        &__stripe {
+            line-height: 1.2rem;
+        }
+    }
+    .mobile-logo {
+        position: absolute;
+        left: 12rem;
+    }
+    .mobile-info {
+        &__number {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #364844;
+            text-align: right;
+        }
+
+        &__address {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 0px;
+            color: #364844;
+            text-align: right;
+        }
+    }
 }
+
 .main {
     .main-top {
         background-color: #f8fbfa;

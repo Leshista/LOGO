@@ -26,7 +26,6 @@
                     &__title,
                     &__text {
                         max-width: 100%;
-                        text-align: center;
                     }
                 }
             }
@@ -55,10 +54,10 @@
             }
         }
         .main-bottom__wrapper {
-            margin: 5rem auto 3.9rem auto;
+            margin: 2rem auto;
         }
         .controlling-panel {
-            margin-bottom: 3.9rem;
+            margin-bottom: 2rem;
             &__numbers {
                 font-size: 2.4rem;
             }
@@ -79,5 +78,11 @@
     }
     .header-mobile {
         display: flex;
+    }
+    .footer {
+        &__logo,
+        &__nav {
+            display: none;
+        }
     }
 }
